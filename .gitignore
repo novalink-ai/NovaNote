@@ -1,0 +1,59 @@
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── 虚拟环境 ─────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── PyInstaller ──────────────────────────────────────────────────────
+# NovaNote.spec 由 build_exe.py 生成，属于构建产物，不入库
+NovaNote.spec
+*.manifest
+
+# ── 运行 / 调试产物 ──────────────────────────────────────────────────
+*.log
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ── 本机删除保护产生的改名目录 ───────────────────────────────────────
+.trash_*/
+
+# ── 工作空间数据（用户数据，绝不入库）────────────────────────────────
+novanote.db
+novanote.db-wal
+novanote.db-shm
+workspace.json
+*.sqlite
+*.sqlite3
+
+# ── 本地工作记忆 ─────────────────────────────────────────────────────
+.workbuddy/
+
+# ── 编辑器 / 系统 ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
